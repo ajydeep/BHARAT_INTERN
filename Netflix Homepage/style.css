@@ -1,0 +1,94 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Navigation Bar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar img {
+    width: 100px;
+    height: auto;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Hero Section styles */
+.hero {
+    background-image: url("hero-bg.jpg");
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    background-color: #e50914;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+/* Content Section styles */
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.content-card {
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.content-card img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
